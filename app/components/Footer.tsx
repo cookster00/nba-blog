@@ -18,9 +18,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-800 text-[#B0B0B0] p-6 text-center">
+    <footer className="bg-[#232C33] text-[#B5B2C2] p-6 text-center">
       {/* Horizontal Divider */}
-      <div className="w-full border-t border-[#87A878] mb-6"></div>
+      <div className="w-full border-t border-[#5A7D7C] mb-6"></div>
 
       {/* Admin Access */}
       {!isAdmin ? (
@@ -30,11 +30,11 @@ export default function Footer() {
             placeholder="Enter Admin Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="p-2 border border-gray-600 rounded mb-3 block mx-auto text-gray-900"
+            className="p-2 border border-[#5A7D7C] rounded mb-3 block mx-auto text-[#B5B2C2]"
           />
           <button
             onClick={handleAdminAccess}
-            className="border border-[#87A878] text-[#87A878] px-3 py-1 rounded text-sm font-semibold hover:bg-[#87A878] hover:text-white transition"
+            className="border border-[#5A7D7C] text-[#A0C1D1] px-3 py-1 rounded text-sm font-semibold hover:bg-[#A0C1D1] hover:text-[#232C33] transition"
           >
             Admin Access
           </button>
@@ -45,7 +45,7 @@ export default function Footer() {
           <p className="text-green-500 mb-2">Admin access granted!</p>
           <Link
             href="/articlesubmit"
-            className="border border-[#87A878] text-[#87A878] px-3 py-1 rounded text-sm font-semibold hover:bg-[#87A878] hover:text-white transition"
+            className="border border-[#5A7D7C] text-[#A0C1D1] px-3 py-1 rounded text-sm font-semibold hover:bg-[#A0C1D1] hover:text-[#232C33] transition"
           >
             Go to Submit Article
           </Link>
