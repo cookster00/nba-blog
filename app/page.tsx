@@ -1,19 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link"; // Import Link from Next.js
 
 export default function Home() {
   const [isAdmin, setIsAdmin] = useState(false);
   const [articles, setArticles] = useState([
     {
       id: 1,
-      title: "NBA Finals Recap",
-      content: "A thrilling series that kept fans on the edge of their seats.",
-    },
-    {
-      id: 2,
-      title: "Top 10 Players of 2025",
-      content: "Ranking the best players of the season.",
+      title: "Breaking Down the 2024 NBA MVP Race: Is It Already Decided?",
+      content: `With less than 10 games remaining in the regular season, the race for the 2024 NBA MVP is nearing its conclusion. The top contenders have separated themselves from the pack, and while the final decision isn’t official, it’s becoming increasingly clear that this is a two-man battle between Shai Gilgeous-Alexander and Nikola Jokić.`,
     },
   ]);
   const [newArticle, setNewArticle] = useState({ title: "", content: "" });
@@ -73,12 +69,12 @@ export default function Home() {
               <p className="text-sm text-[#B5B2C2]">
                 {article.content.substring(0, 100)}...
               </p>
-              <a
-                href="#"
+              <Link
+                href={`/latest/${article.id}`} // Use Link for navigation
                 className="text-[#A0C1D1] hover:underline mt-2 block"
               >
                 Read More
-              </a>
+              </Link>
             </div>
           ))}
         </div>
