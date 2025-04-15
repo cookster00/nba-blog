@@ -1,0 +1,62 @@
+[
+  {
+    "PLAYER_NAME": "Josh Giddey",
+    "TEAM_ABBREVIATION": "CHI",
+    "Formatted_Stats": "28.0 pts, 16.0 reb, 11.0 ast, 2.0 stl, 3.0 blk",
+    "Performance_Score": 78.7
+  },
+  {
+    "PLAYER_NAME": "Luka Dončić",
+    "TEAM_ABBREVIATION": "LAL",
+    "Formatted_Stats": "45.0 pts, 8.0 reb, 6.0 ast, 4.0 stl, 0.0 blk",
+    "Performance_Score": 75.6
+  },
+  {
+    "PLAYER_NAME": "Kyle Filipowski",
+    "TEAM_ABBREVIATION": "UTA",
+    "Formatted_Stats": "30.0 pts, 18.0 reb, 5.0 ast, 3.0 stl, 2.0 blk",
+    "Performance_Score": 74.1
+  },
+  {
+    "PLAYER_NAME": "Nikola Jokić",
+    "TEAM_ABBREVIATION": "DEN",
+    "Formatted_Stats": "20.0 pts, 12.0 reb, 11.0 ast, 4.0 stl, 0.0 blk",
+    "Performance_Score": 62.9
+  },
+  {
+    "PLAYER_NAME": "James Harden",
+    "TEAM_ABBREVIATION": "LAC",
+    "Formatted_Stats": "35.0 pts, 3.0 reb, 10.0 ast, 2.0 stl, 0.0 blk",
+    "Performance_Score": 59.6
+  },
+  {
+    "PLAYER_NAME": "Shaedon Sharpe",
+    "TEAM_ABBREVIATION": "POR",
+    "Formatted_Stats": "37.0 pts, 7.0 reb, 5.0 ast, 2.0 stl, 0.0 blk",
+    "Performance_Score": 58.9
+  },
+  {
+    "PLAYER_NAME": "Jalen Williams",
+    "TEAM_ABBREVIATION": "OKC",
+    "Formatted_Stats": "33.0 pts, 7.0 reb, 5.0 ast, 3.0 stl, 0.0 blk",
+    "Performance_Score": 57.9
+  },
+  {
+    "PLAYER_NAME": "Jonathan Mogbo",
+    "TEAM_ABBREVIATION": "TOR",
+    "Formatted_Stats": "17.0 pts, 10.0 reb, 11.0 ast, 3.0 stl, 0.0 blk",
+    "Performance_Score": 54.5
+  },
+  {
+    "PLAYER_NAME": "Nikola Vučević",
+    "TEAM_ABBREVIATION": "CHI",
+    "Formatted_Stats": "20.0 pts, 11.0 reb, 8.0 ast, 2.0 stl, 1.0 blk",
+    "Performance_Score": 54.2
+  },
+  {
+    "PLAYER_NAME": "Devin Booker",
+    "TEAM_ABBREVIATION": "PHX",
+    "Formatted_Stats": "20.0 pts, 6.0 reb, 14.0 ast, 1.0 stl, 0.0 blk",
+    "Performance_Score": 51.2
+  }
+]

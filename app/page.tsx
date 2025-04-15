@@ -52,6 +52,20 @@ export default function Home() {
         <div className="mt-4 w-full border-t border-[#5A7D7C]"></div>
       </div>
 
+      {/* Daily Stats Hub */}
+      <div className="p-8 bg-[#2E3A42] text-center">
+        <h2 className="text-3xl font-bold text-[#DADFF7] mb-4">🔥 Daily Stats Hub</h2>
+        <p className="text-lg text-[#B5B2C2] mb-6">
+          Check out the top performers updated every morning!
+        </p>
+        <a
+          href="/stats"
+          className="bg-[#A0C1D1] text-[#232C33] px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#8FB3C3] transition"
+        >
+          View Daily Stats
+        </a>
+      </div>
+
       {/* Blog Post Feed */}
       <div id="articles" className="p-8 bg-[#2E3A42]">
         <h2 className="text-4xl font-bold mb-6 text-center text-[#DADFF7]">
